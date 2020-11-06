@@ -28,6 +28,12 @@ prose --project_name example_prose_package \
     --python_version 3.8.2
 ```
 
+Now, you can get a glimpse of project functionalities:
+
+```
+cd example_prose_package && nox -rs
+```
+
 Benefits:
 
 * pre-configured `flake8` (with extensions), see:
