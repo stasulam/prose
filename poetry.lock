@@ -102,7 +102,7 @@ python-versions = "*"
 version = "3.0.4"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Composable command line interface toolkit"
 name = "click"
 optional = false
@@ -839,7 +839,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["pytest (>=3.5,<3.7.3 || >3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pytest-cov", "jaraco.test (>=3.2.0)", "jaraco.itertools", "func-timeout", "pytest-black (>=0.3.7)", "pytest-mypy"]
 
 [metadata]
-content-hash = "92e8fbb6bd2bbb91ba952ab91383c4108b608496fe4c96f2fd5ac4920831db04"
+content-hash = "98770a9f20ab3c564bd9d4676b2ef2d7f6a1a71aaa12664d8eadfacad30c0492"
 python-versions = "^3.7"
 
 [metadata.files]
