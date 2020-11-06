@@ -7,7 +7,25 @@ Reference
 
 
 prose.main
---------------------
+----------
 
-.. automodule:: prose.main
-   :members:
+.. currentmodule:: prose.main
+
+.. autofunction:: main
+
+prose.template
+--------------
+
+.. automodule:: prose.template
+    :members:
+
+prose.env
+---------
+
+.. automodule:: prose.env
+    :members:
+
+prose.exceptions
+----------------
+
+.. automodule:: prose.exceptions
