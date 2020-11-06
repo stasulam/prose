@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "${project_name}"
+version = "0.1.1"
+description = "Description of your project."
+authors = ["Your Name <your_name@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.scripts]
+${project_name} = "${project_name}.prose:main"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["${project_name}"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
