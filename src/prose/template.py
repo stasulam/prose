@@ -131,7 +131,6 @@ class PackageTemplate(Template):
             project_name=project_name,
             template_name=template_name,
             template_type="packages",
-            template_dir=os.path.join(prose.__path__[0], "templates"),
             overwrite=overwrite,
         )
 
